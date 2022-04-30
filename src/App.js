@@ -1,23 +1,9 @@
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
-import {Home} from "./pages/home"
-import { Login } from "./pages/login";
+import { Box } from "@chakra-ui/react";
+import Router from "./routes";
 export default function App() {
   return (
-    <BrowserRouter>
-    <Routes>
-      <Route
-        path="/"
-        element={
-            <Home />
-        }
-      />
-            <Route
-        path="/login"
-        element={
-            < Login/>
-        }
-      />
-    </Routes>
-  </BrowserRouter>
+    <Box w="100vw" h="100vh">  
+     <Router />
+    </Box>
   );
 }
