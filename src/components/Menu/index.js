@@ -23,15 +23,12 @@ export const Menu = () => {
         <Link to="/dashboard">
         <Text w="100%" _hover={{bg:"gray.400", borderRadius: "5px"}} transition="0.75s">Seus Eventos</Text>
     </Link>
-           <Link to="/dashboard">
+           <Link to="/events">
         <Text w="100%" _hover={{bg:"gray.400", borderRadius: "5px"}} transition="0.75s">Eventos Publicos</Text>
     </Link>
     
-        <Link to="/dashboard">
+        <Link to="/agenda">
         <Text w="100%" _hover={{bg:"gray.400", borderRadius: "5px"}} transition="0.75s">Agenda</Text>
-    </Link>
-        <Link to="/dashboard">
-        <Text w="100%" _hover={{bg:"gray.400", borderRadius: "5px"}} transition="0.75s">Perfil</Text>
     </Link>
     </Flex>
     <Button colorScheme="white" variant="outline">
