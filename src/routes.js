@@ -1,9 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Agenda } from "./pages/calendar";
 import { Dashboard } from "./pages/dashboard";
 import {Home} from "./pages/home"
 import { Login } from "./pages/login";
 import { Register } from "./pages/register";
+import { Live } from "./pages/live";
+
 export default function Router() {
   return (
     <BrowserRouter>
@@ -33,9 +34,9 @@ export default function Router() {
         }
       />
                     <Route
-        path="/agenda"
+        path="/live"
         element={
-            < Agenda/>
+            < Live/>
         }
       />
 
