@@ -11,7 +11,7 @@ export const Home = () => {
         <>
             <Flex minWidth='max-content' alignItems='center' gap='2' padding='10px'>
                 <Box p='2' marginLeft='100px'>
-                    <img src={logo} />
+                    <img src={logo} alt="logo"/>
                 </Box>
                 <Spacer />
                 <ButtonGroup gap='3' marginRight='100px'>
@@ -26,26 +26,26 @@ export const Home = () => {
 
             <Flex>
                 <Box w='50%' display='flex' justifyContent='center'>
-                    <img src={imgHome} />
+                    <img src={imgHome}  alt="imgHome"/>
                 </Box>
                 <Box w='45%' display='flex' justifyContent='center' flexDirection='column'>
                     <Box display='flex'>
                         <Box border='1px solid #27B1BF' padding='15px' borderRadius='20px' marginRight='20px' width='240px' height='210px'>
-                            <img src={imgCard1} />
+                            <img src={imgCard1} alt="imgCard" />
                             <Heading size='xs' fontWeight='normal'>CONECTE PESSOAS DO MUNDO INTEIRO DE FORMA ACESSÍVEL</Heading>
                         </Box>
                         <Box border='1px solid #27B1BF' backgroundColor='#27B1BF' padding='15px' borderRadius='20px' display='flex' justifyContent='center' flexDirection='column' width='240px' height='210px'>
-                            <Box display='flex' justifyContent='center'><img src={imgCard2} /></Box>
+                            <Box display='flex' justifyContent='center'><img src={imgCard2} alt="imgCard2"/></Box>
                             <Heading size='xs' fontWeight='normal' color='#fff' textAlign='center' paddingTop='9px'>UTILIZE DE FORMAS PRESENCIAIS E VIRTUAIS</Heading>
                         </Box>
                     </Box>
                     <Box display='flex' marginTop='10px'>
                         <Box border='1px solid #27B1BF' marginRight='20px' backgroundColor='#27B1BF' padding='15px' borderRadius='20px' display='flex' justifyContent='center' flexDirection='column' width='240px' height='210px'>
-                            <Box display='flex' justifyContent='center'><img src={imgCard3} /></Box>
+                            <Box display='flex' justifyContent='center'><img src={imgCard3} alt="imgCard3" /></Box>
                             <Heading size='xs' fontWeight='normal' color='#fff' textAlign='center' paddingTop='9px'>CRIE SOLUÇÕES INOVADORAS</Heading>
                         </Box>
                         <Box border='1px solid #27B1BF' padding='15px' borderRadius='20px' width='240px' height='210px'>
-                            <img src={imgCard4} />
+                            <img src={imgCard4} alt="imgCard4"/>
                             <Heading size='xs' fontWeight='normal' textAlign='center'>FAÇA REUNIÕES GRATUITAS E
                                 DE QUALIDADE</Heading>
                         </Box>

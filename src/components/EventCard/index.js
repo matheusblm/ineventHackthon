@@ -1,5 +1,4 @@
 import { Flex, Text, HStack } from "@chakra-ui/react"
-
 export const EventCard = ({
 event
 }) => {
